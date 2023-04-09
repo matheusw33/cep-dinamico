@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap");
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Comfortaa", cursive;
+  font-weight: 700;
+  background-image: radial-gradient(#3287f0, #1363DF);
+}
+body .canva {
+  background-color: #F4F9F9;
+  width: 300px;
+  height: 500px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1em;
+  box-sizing: border-box;
+  text-align: center;
+}
+body .canva h1 {
+  font-size: 1.4em;
+  color: #3287f0;
+}
+body .canva .formulario {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 2em 0;
+}
+body .canva .formulario .formulario__campo {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  gap: 5px;
+}
+body .canva .formulario .formulario__campo input {
+  border-radius: 5px;
+  border: solid 1px #d1d1d1;
+  height: 25px;
+  font-size: 1em;
+  padding: 0 0.5em;
+}
+body .canva .formulario .formulario__campo .erro {
+  color: #f77575;
+}/*# sourceMappingURL=style.css.map */
